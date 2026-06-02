@@ -49,10 +49,12 @@ Todo está marcado con valores **placeholder**. Reemplaza:
    - **Mientras no se configure**, el formulario funciona como respaldo enviando los datos
      por WhatsApp automáticamente, así que nunca se pierde un lead.
 
-4. **Imágenes** (placeholders azules con marca de "corte"):
-   - Coloca las fotos reales en `assets/img/` y reemplaza los bloques `.ph` por `<img>`,
-     o usa CSS `background-image`. Cada placeholder dice qué foto va ahí.
-   - `assets/img/og-image.jpg` (1200×630) para que se vea bien al compartir en redes/WhatsApp.
+4. **Imágenes** — ya hay imágenes generadas con IA (Nano Banana) como provisionales
+   en `assets/img/` (`hero.png`, `elevador.png`, `estructura.png`, `cubierta.png`,
+   `grua.png`, `obra.png`, `proyecto-01..05.png`, `og-image.png`).
+   - Para usar **fotos reales**, basta reemplazar cada archivo `.png` por la foto real
+     con el mismo nombre (no hay que tocar el HTML). Conserva proporciones parecidas.
+   - `og-image.png` (~1200×630) es la imagen que se ve al compartir en redes/WhatsApp.
 
 5. **Dominio** (opcional): si tienen dominio propio, actualiza las URLs `https://aceroimagen.com`
    en `index.html` (canonical, Open Graph, JSON-LD), `robots.txt` y `sitemap.xml`.
